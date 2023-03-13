@@ -1,9 +1,13 @@
 import * as React from "react";
+import Layout from "../components/layout";
+import Nav from "../components/nav";
 
 function IndexPage() {
   return (
     <>
-      <h1>Dit werkt. Dit zal uiteindelijk een hele mooi app zijn geworden.</h1>
+      <Layout>
+        <Nav />
+      </Layout>
     </>
   );
 }
